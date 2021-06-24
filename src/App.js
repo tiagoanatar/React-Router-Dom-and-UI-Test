@@ -12,7 +12,7 @@ import './css/custom.css'
 import './js/front.js'
 
 // react
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // components
@@ -27,11 +27,6 @@ import Army from './screens/Army'
 function App() {
 
   const [task, setTaask] = useState(4)
-
-  useEffect(() => {
-    let x = task + 1
-    setTaask(x)
-  }, [])
 
   return (
 
