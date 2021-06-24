@@ -1,6 +1,6 @@
 Jquery, React Router DOM and UI mobile tests.
 
-Live demo: 
+Live demo: https://fervent-ritchie-13347c.netlify.app/
 
 # Getting Started with Create React App
 
