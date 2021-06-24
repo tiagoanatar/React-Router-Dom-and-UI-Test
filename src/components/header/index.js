@@ -11,7 +11,7 @@ const Header = () => {
           <div className="search-panel">
             <div className="search-inner d-flex align-items-center justify-content-center">
               <div className="close-btn">Close <i className="fa fa-close"></i></div>
-              <form id="searchForm" action="#">
+              <form id="searchForm" action="#t">
                 <div className="form-group">
                   TEST JJJ
                 </div>
@@ -29,7 +29,7 @@ const Header = () => {
 
                 {/* Tooltip */}
                 <div className="list-inline-item">
-                  <a href="#" className="search-open nav-link"><i className="icon-check"></i></a>
+                  <a href="#t" className="search-open nav-link"><i className="icon-check"></i></a>
                 </div>
 
                 <Tasks />

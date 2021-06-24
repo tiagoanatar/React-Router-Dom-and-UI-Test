@@ -1,7 +1,7 @@
 const Task = ({ title, percentage}) => {
     return (
         <>
-        <a href='#' className='dropdown-item'>
+        <a href='#t' className='dropdown-item'>
             <div className='text d-flex justify-content-between'>
               <strong>{title}</strong><span>{percentage} complete</span></div>
             <div className='progress'>
