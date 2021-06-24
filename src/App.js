@@ -26,16 +26,17 @@ import Army from './screens/Army'
 
 function App() {
 
-  const [task, setTaask] = useState([])
+  const [task, setTaask] = useState(4)
 
   useEffect(() => {
-    setTaask([1])
+    let x = task + 1
+    setTaask(x)
   }, [])
 
   return (
 
     <Router>
-    <Header />
+    <Header task={task} />
     <div className='d-flex align-items-stretch'>
       <SideMenu />
       <div className='page-content'>
