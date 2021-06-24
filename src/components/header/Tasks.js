@@ -1,11 +1,11 @@
 import Task from './Task'
 
-const Tasks = () => {
+const Tasks = ({task}) => {
     return (
         <>
         <div className='list-inline-item dropdown'>
         <a id='navbarDropdownMenuLink2' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded-off='false' className='nav-link tasks-toggle'>
-          <i className='icon-new-file'></i><span className='badge dashbg-3'>9</span>
+          <i className='icon-new-file'></i><span className='badge dashbg-3'>{task}</span>
         </a>
         <div aria-labelledby='navbarDropdownMenuLink2' data-toolpip='set' className='dropdown-menu tasks-list'>
 
