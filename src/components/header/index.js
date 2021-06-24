@@ -1,6 +1,6 @@
 import Tasks from './Tasks'
 
-const Header = ({task}) => {
+const Header = () => {
     return (
         <>
 
@@ -32,7 +32,7 @@ const Header = ({task}) => {
                   <a href="#" className="search-open nav-link"><i className="icon-check"></i></a>
                 </div>
 
-                <Tasks task={task} />
+                <Tasks />
 
               </div>
             </div>

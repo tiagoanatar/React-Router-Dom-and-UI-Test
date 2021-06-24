@@ -29,7 +29,7 @@ function App() {
   return (
 
     <Router>
-    <Header task={task} />
+    <Header />
     <div className='d-flex align-items-stretch'>
       <SideMenu />
       <div className='page-content'>
