@@ -29,7 +29,7 @@ function App() {
   const [task, setTaask] = useState([])
 
   useEffect(() => {
-
+    setTaask([1])
   }, [])
 
   return (
@@ -64,7 +64,7 @@ function App() {
                       <Army />
                     </Route>
                     <Route path='/test'>
-                      
+
                     </Route>
                     <Route path='/'>
                       <Map />
